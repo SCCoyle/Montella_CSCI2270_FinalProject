@@ -10,7 +10,19 @@ This project was created in Xcode but compiled and ran through terminal.
 * Navigate to the directory in terminal
 * Put in this code: g++ -o test (INSERT FILES HERE)
 * Once it is compiled, run this code: ./test KBStats.csv
-* 
+* From there, you will be able to use the program
 
+**Dependencies**
+All files needed are provided in this repository.
+
+**System Requirements**
+This was written in Xcode on a Macbook Pro.  It runs using Unix commands in the Terminal.  I am not sure if it will work on windows but it should work on both OSX and Linux.
+
+**Group Members**
+Michael Montella
+
+**Contributors**
+
+**Open Issues/Bugs**
 
 *Created by Michael Montella*
