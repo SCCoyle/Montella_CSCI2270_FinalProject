@@ -9,7 +9,10 @@ This project will take stats from Kobe Bryant's NBA career and insert it into a 
 This project was created in Xcode but compiled and ran through terminal.  
 * Put all files in the same directory.  
 * Navigate to the directory in terminal
-* Put in this code: g++ -o test (INSERT FILES HERE)
+* Put in this code: 
+```
+g++ -o test main.cpp statTree.cpp
+```
 * Once it is compiled, run this code: ./test KBStats.csv
 * From there, you will be able to use the program
 
