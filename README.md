@@ -32,7 +32,9 @@ This was written in Xcode on a Macbook Pro.  It runs using Unix commands in the 
 Michael Montella
 
 **Contributors**
+None
 
 **Open Issues/Bugs**
+None
 
 *Created by Michael Montella*
