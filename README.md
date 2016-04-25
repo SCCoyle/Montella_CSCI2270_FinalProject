@@ -13,7 +13,10 @@ This project was created in Xcode but compiled and ran through terminal.
 ```
 g++ -o test main.cpp statTree.cpp
 ```
-* Once it is compiled, run this code: ./test KBStats.csv
+* Once it is compiled, run this code: 
+```
+./test KBStats.csv
+```
 * From there, you will be able to use the program
 
 **Dependencies**
