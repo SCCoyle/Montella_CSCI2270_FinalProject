@@ -15,7 +15,7 @@ g++ -o test main.cpp statTree.cpp
 ```
 * Once it is compiled, run this code: 
 ```
-./test KBStats.csv
+./test KBStats.txt
 ```
 * From there, you will be able to use the program
 
