@@ -64,13 +64,15 @@ int main(int argc, char * argv[]) {
     int choice = 0;
     while (choice != 4) {
         TreeStat.printMenu();
-        cin >> choice;
+        string choiceS;
+	getline(cin,choiceS);
+	stringstream convert(choiceS);
+	convert >> choice;
         
         if (choice == 1) {      // Calculate total points scored
             TreeStat.printTotalPoints();
         } else if (choice == 2) {
             string choice2;
-            cin.ignore();
             
             cout << "What would you like to rank by?" << endl;
             cout << "1. Total points" << endl;
@@ -90,8 +92,7 @@ int main(int argc, char * argv[]) {
             
         } else if (choice == 3) {
             string year;
-            cin.ignore();
-            
+                        
             cout << "Which season would you like to look at?" << endl;
             cout << "Enter the last 2 digits of each year like this: 'yy-yy'  (i.e. for Kobe's first season, put '96-97'" << endl;
             
