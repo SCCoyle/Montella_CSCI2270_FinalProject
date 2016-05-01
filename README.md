@@ -13,6 +13,10 @@ This project was created in Xcode but compiled and ran through terminal.
 ```
 g++ -o test main.cpp statTree.cpp
 ```
+or
+```
+g++ -o test -std=c++11 main.cpp statTree.cpp
+```
 * Once it is compiled, run this code: 
 ```
 ./test KBStats.txt
