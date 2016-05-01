@@ -41,7 +41,7 @@ None
 
 **Open Issues/Bugs**
 
-None
+When in the main menu, if the user inputs a letter rather than a number, an infinite loop occurs.
 
 ----
 *Created by Michael Montella*
